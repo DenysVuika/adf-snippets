@@ -4,6 +4,7 @@
     "description": "ADF snippets",
     "version": "0.0.1",
     "publisher": "DenysVuika",
+    "repository": "https://github.com/DenisVuyka/adf-snippets",
     "engines": {
         "vscode": "^1.24.0"
     },
