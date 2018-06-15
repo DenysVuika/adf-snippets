@@ -1,0 +1,25 @@
+{
+    "name": "adf-snippets",
+    "displayName": "adf-snippets",
+    "description": "ADF snippets",
+    "version": "0.0.1",
+    "publisher": "DenysVuika",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
