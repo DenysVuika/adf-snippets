@@ -1,0 +1,18 @@
+{
+    "aca-action": {
+        "description": "Generate new NgRx action",
+        "scope": "javascript,typescript",
+        "prefix": "ngrx-action",
+        "body": [
+            "import { Action } from '@ngrx/store';",
+            "",
+            "export const ${1:ACTION_NAME} = '$1';",
+            "",
+            "export class ${2:My}Action implements Action {",
+            "    readonly type = $1;",
+            "    constructor(public payload: ${3:string}) {}",
+            "}",
+            ""
+        ]
+    }
+}
