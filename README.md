@@ -8,6 +8,7 @@ This is a set of VS Code snippets used for Alfresco ADF development.
 * ACA License Header (`aca-header`)
 * NgRx Action (`ngrx-action`)
 * NgRx Effect (`ngrx-effect`)
+* Angular Directive with ADF presets (`adf-directive`)
 
 Just start typing the name of the snippet and press `Tab` to generate the content.
 

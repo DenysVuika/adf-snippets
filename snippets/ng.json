@@ -1,0 +1,33 @@
+{
+    "adf-directive": {
+        "description": "Generate a new Angular directive with ADF presets",
+        "scope": "typescript",
+        "prefix": "adf-directive",
+        "body": [
+            "import { Directive, OnInit, OnDestroy } from '@angular/core';",
+            "import { Subscription } from 'rxjs/Rx';",
+            "",
+            "@Directive({",
+            "    selector: '[${1:adfDirectiveName}]'",
+            "})",
+            "export class ${2:My}Directive implements OnInit, OnDestroy {",
+            "    private subscriptions: Subscription[] = [];",
+            "",
+            "    ngOnInit() {",
+            "        this.subscriptions.push(",
+            "            /*",
+            "            service.event.subscribe(() => this.doSomething()),",
+            "            service.event.subscribe(() => this.doSomething())",
+            "            */",
+            "        );",
+            "    }",
+            "",
+            "    ngOnDestroy() {",
+            "        this.subscriptions.forEach(subscription => subscription.unsubscribe());",
+            "        this.subscriptions = [];",
+            "    }",
+            "}",
+            ""
+        ]
+    }
+}

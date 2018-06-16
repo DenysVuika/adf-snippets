@@ -1,7 +1,7 @@
 {
     "ngrx-action": {
         "description": "Generate a new NgRx Action",
-        "scope": "javascript,typescript",
+        "scope": "typescript",
         "prefix": "ngrx-action",
         "body": [
             "import { Action } from '@ngrx/store';",
@@ -17,7 +17,7 @@
     },
     "ngrx-effect": {
         "description": "Generate a new NgRx Effect",
-        "scope": "javascript,typescript",
+        "scope": "typescript",
         "prefix": "ngrx-effect",
         "body": [
             "import { Effect, Actions, ofType } from '@ngrx/effects';",
