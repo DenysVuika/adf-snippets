@@ -1,6 +1,6 @@
 {
-    "aca-action": {
-        "description": "Generate new NgRx action",
+    "ngrx-action": {
+        "description": "Generate a new NgRx Action",
         "scope": "javascript,typescript",
         "prefix": "ngrx-action",
         "body": [
@@ -13,6 +13,29 @@
             "    constructor(public payload: ${3:string}) {}",
             "}",
             ""
+        ]
+    },
+    "ngrx-effect": {
+        "description": "Generate a new NgRx Effect",
+        "scope": "javascript,typescript",
+        "prefix": "ngrx-effect",
+        "body": [
+            "import { Effect, Actions, ofType } from '@ngrx/effects';",
+            "import { Injectable } from '@angular/core';",
+            "import { map } from 'rxjs/operators';",
+            "",
+            "@Injectable()",
+            "export class ${1:My}Effects {",
+            "    constructor(private actions$: Actions) {}",
+            "",
+            "    @Effect({ dispatch: ${2:false} })",
+            "    ${3:myAction}$ = this.actions$.pipe(",
+            "        ofType<${4:My}Action>(${5:ACTION_TYPE}),",
+            "        map(action => {",
+            "            ${0}",
+            "        })",
+            "    );",
+            "}"
         ]
     }
 }

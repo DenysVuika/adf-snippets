@@ -1,7 +1,14 @@
 # Change Log
 All notable changes to the "adf-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
-- Initial release
+
+## [0.0.2] - 2018-06-16
+### Added
+- `ngrx-action` snippet
+- `ngrx-effect` snippet
+
+## [0.0.1] - 2018-06-15
+### Added
+- `aca-license` snippet
+- `adf-license` snippet
