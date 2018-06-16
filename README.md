@@ -18,6 +18,4 @@ Just start typing the name of the snippet and press `Tab` to generate the conten
 
 ## Release Notes
 
-### 0.0.1
-
-Initial release of snippets extension.
+See [CHANGELOG](CHANGELOG.md) for the details.
