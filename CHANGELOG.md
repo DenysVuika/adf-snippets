@@ -2,6 +2,8 @@
 All notable changes to the "adf-snippets" extension will be documented in this file.
 
 ## [Unreleased]
+
+## [0.0.4] - 2018-06-17
 ### Added
 - `adf-theme` snippet (SASS)
 - `adf-component` snippet (Typescript)
