@@ -8,6 +8,8 @@ This is a set of VS Code snippets used for Alfresco ADF development.
 
 * ADF License Header (`adf-header`)
 * ACA License Header (`aca-header`)
+* Angular Component with ADF presets (`adf-component`)
+* Angular Directive with ADF presets (`adf-directive`)
 * NgRx Action (`ngrx-action`)
 * NgRx Effect (`ngrx-effect`)
 
@@ -15,7 +17,6 @@ This is a set of VS Code snippets used for Alfresco ADF development.
 
 * ADF License Header (`adf-header`)
 * ACA License Header (`aca-header`)
-* Angular Directive with ADF presets (`adf-directive`)
 
 ### Sass (SCSS)
 
